@@ -1,0 +1,58 @@
+# Python virtual environments & packages
+venv/
+.venv/
+env/
+ENV/
+backend/venv/
+backend/.venv/
+
+# Python bytecode & test caches
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+backend/.pytest_cache/
+.coverage
+htmlcov/
+
+# Node modules & frontend build artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+build/
+.eslintcache
+.oxlintcache
+
+# Environment variables & secrets (preserve templates)
+.env
+.env.*
+*.env
+backend/.env
+frontend/.env
+!.env.example
+!frontend/.env.example
+
+# Local databases & user data
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+backend/pastebin.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
